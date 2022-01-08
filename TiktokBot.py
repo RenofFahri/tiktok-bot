@@ -424,9 +424,9 @@ clear()
 print(pyfiglet.figlet_format("Tiktok BOT", font="slant"))
 print("Log:")
 
-if vidUrl:
+if int(len(vidUrl)) >= 20:
     driver.get("https://zefoy.com/")
-    
+
     a = threading.Thread(target=title)
     b = threading.Thread(target=loop1)
     
@@ -434,4 +434,4 @@ if vidUrl:
     b.start()
 
 else:
-    print(f"{vidUrl} KAN GUA BILANG KETIK ANGKA 1")
+    print(f"{vidUrl} => URL is invalid!")
