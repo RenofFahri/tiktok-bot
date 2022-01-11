@@ -1,3 +1,7 @@
+<div align="right">
+  <a href="https://wakatime.com/badge/github/bangfaroqi/tiktok-bot"><img src="https://wakatime.com/badge/github/bangfaroqi/tiktok-bot.svg" alt="wakatime"></a>
+</div>
+
 ## Install the requirements
 <pre>pip install selenium
 pip install pyfiglet==0.7.5</pre>
